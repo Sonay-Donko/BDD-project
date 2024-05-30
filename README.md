@@ -1,7 +1,5 @@
 # BDD-project
-
-Here's the corrected version:
-
+-----------------------------------------------------------------------------------------------------------------------------
 [ + ] This is the static version of the BDD mini-project that reads the username from a relational database (SQL).
 
 [ + ] This is just the static version, using only HTML, CSS, and JavaScript because GitHub Pages does not support server-side languages such as PHP, Ruby, or Python ( For further information https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages )
@@ -13,12 +11,14 @@ Here's the corrected version:
 [ + ] The disadvantage is that you can't modify anything, and adding a person takes more time (due to the fact that you need to add a new whole page)
 
 [ + ] So, why is this project you may ask? Well, it's to be able to test the layout on every device more easily and show how the layout changes from one device to another, and maybe to showcase it to the world and make it easily accessible even for us
-
-<<<<<<<<   Note  >>>>>>>>
+------------------------------------------------------------------------------------------------------------------------------<<<<<<<<   Note  >>>>>>>>
 
 + The index.html corresponds to the formepage.php in the original project.
 
 + A list button was added to index to access the list.html (show all pseudo names, and be able to show their details by
-  clicking on them (in the original project, you could access it from the WAMP server page)
+  clicking on them (in the original project, you could access it from the WAMP server page
+  
+-----------------------------------------------------------------------------------------------------------------------------
+This project was released by Group 1 UMMTO students
     
 
