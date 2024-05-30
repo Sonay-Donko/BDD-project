@@ -131,22 +131,22 @@
         
         <!-- Champ pour le prénom -->
         <label for="prenom">Prénom:</label>
-        <input type="text" id="prenom" name="prenom" value="<?= htmlspecialchars($details['prenom']) ?>"><br>
+        <input type="text" id="prenom" name="prenom" value="Tenma"><br>
         
         <!-- Champ pour le nom -->
         <label for="nom">Nom:</label>
-        <input type="text" id="nom" name="nom" value="<?= htmlspecialchars($details['nom']) ?>"><br>
+        <input type="text" id="nom" name="nom" value="Kenzo"><br>
         
         <!-- Champ pour l'âge -->
         <label for="age">Age:</label>
-        <input type="number" id="age" name="age" value="<?= htmlspecialchars($details['age']) ?>"><br>
+        <input type="number" id="age" name="age" value="28"><br>
         
         <!-- Champ pour la ville -->
         <label for="ville">Ville:</label>
-        <input type="text" id="ville" name="ville" value="<?= htmlspecialchars($details['ville']) ?>"><br>
+        <input type="text" id="ville" name="ville" value="Dusseldorf"><br>
         
         <!-- Bouton de soumission du formulaire -->
-        <button type="submit" id = "btn" onclick="window.location.href='detail.html'">Mettre à jour</button>
+        <button type="submit" id = "btn">Mettre à jour</button>
    
 </div>
 
@@ -177,6 +177,8 @@
             if (!validateForm() ) {   
                 event.preventDefault(); /* on execute pas*/         
                 alert(messageErreur); // affiche le type d'erreur
+            }else{
+                window.location.href = 'detail.html';
             } 
         });     
 
