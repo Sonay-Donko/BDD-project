@@ -11,7 +11,10 @@
 [ + ] The disadvantage is that you can't modify anything, and adding a person takes more time (due to the fact that you need to add a new whole page)
 
 [ + ] So, why is this project you may ask? Well, it's to be able to test the layout on every device more easily and show how the layout changes from one device to another, and maybe to showcase it to the world and make it easily accessible even for us
-------------------------------------------------------------------------------------------------------------------------------<<<<<<<<   Note  >>>>>>>>
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+<<<<<<<<   Note  >>>>>>>>
 
 + The index.html corresponds to the formepage.php in the original project.
 
